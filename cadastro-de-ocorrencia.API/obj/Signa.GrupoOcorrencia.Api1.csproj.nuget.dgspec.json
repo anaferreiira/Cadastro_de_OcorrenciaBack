@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Ana Kelly\\Desktop\\Projetos Finalizados\\cadastro-de-ocorrencia.API\\Signa.GrupoOcorrencia.Api1\\Signa.GrupoOcorrencia.Api1\\Signa.GrupoOcorrencia.Api1.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Ana Kelly\\Desktop\\Projetos Finalizados\\cadastro-de-ocorrencia.API\\Signa.GrupoOcorrencia.Api1\\Signa.GrupoOcorrencia.Api1\\Signa.GrupoOcorrencia.Api1.csproj": {
+      "version": "1.4.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ana Kelly\\Desktop\\Projetos Finalizados\\cadastro-de-ocorrencia.API\\Signa.GrupoOcorrencia.Api1\\Signa.GrupoOcorrencia.Api1\\Signa.GrupoOcorrencia.Api1.csproj",
+        "projectName": "Signa.GrupoOcorrencia.Api1",
+        "projectPath": "C:\\Users\\Ana Kelly\\Desktop\\Projetos Finalizados\\cadastro-de-ocorrencia.API\\Signa.GrupoOcorrencia.Api1\\Signa.GrupoOcorrencia.Api1\\Signa.GrupoOcorrencia.Api1.csproj",
+        "packagesPath": "C:\\Users\\Ana Kelly\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ana Kelly\\Desktop\\Projetos Finalizados\\cadastro-de-ocorrencia.API\\Signa.GrupoOcorrencia.Api1\\Signa.GrupoOcorrencia.Api1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ana Kelly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "http://nuget.signa.net.br/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "FluentValidation.Aspnetcore": {
+              "target": "Package",
+              "version": "[8.6.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.5.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Serilog.Aspnetcore": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Serilog.sinks.console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.sinks.file": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Signa.Library.Core": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Signa.Library.Core.Aspnet": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "dapper": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
+            "swashbuckle.aspnetcore": {
+              "target": "Package",
+              "version": "[5.0.0-rc4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.32, 3.1.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

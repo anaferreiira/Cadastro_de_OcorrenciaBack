@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Signa.GrupoOcorrencia.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Signa.GrupoOcorrencia.Api1.Controllers.CadOcorrenciaController.CadastrarOcorrencia(Signa.GrupoOcorrencia.Api1.Domain.Models.TipoOcorrenciaModel)">
+            <summary>
+            Cadastra Grupo de ocorrencia novo
+            </summary>
+        </member>
+        <member name="M:Signa.GrupoOcorrencia.Api1.Controllers.CadOcorrenciaController.DeleteOcorrencia(System.Int32)">
+            <summary>
+            Deleta Grupo de ocorrencia
+            </summary>
+        </member>
+        <member name="M:Signa.GrupoOcorrencia.Api1.Controllers.CadOcorrenciaController.DescricaoGrupo(System.String)">
+            <summary>
+            Lista de Grupo de ocorrencia
+            </summary>
+        </member>
+        <member name="M:Signa.GrupoOcorrencia.Api1.Controllers.PermissaoUsuarioController.Get">
+            <summary>
+            Busca permissão do usuário logado na base de dados
+            </summary>
+            <response code="200">Permissões cadastradas na base de dados</response>
+            <response code="404">Nenhuma permissão encontrada na base de dados</response>
+        </member>
+    </members>
+</doc>

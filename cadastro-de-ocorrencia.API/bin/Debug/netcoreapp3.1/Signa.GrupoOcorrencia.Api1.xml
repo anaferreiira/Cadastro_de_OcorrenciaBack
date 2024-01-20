@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Signa.GrupoOcorrencia.Api1</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "M:Signa.GrupoOcorrencia.Api1.Controllers.CadOcorrenciaController.Delete(System.Int32)" -->
+        <member name="M:Signa.GrupoOcorrencia.Api1.Controllers.PermissaoUsuarioController.Get">
+            <summary>
+            Busca permissão do usuário logado na base de dados
+            </summary>
+            <response code="200">Permissões cadastradas na base de dados</response>
+            <response code="404">Nenhuma permissão encontrada na base de dados</response>
+        </member>
+        <member name="M:Signa.GrupoOcorrencia.Api1.Controllers.PessoaController.Insert(Signa.GrupoOcorrencia.Api1.Domain.Models.PessoaModel)">
+             <summary>
+             Grava ou atualiza dados de Pessoa
+             </summary>
+             <remarks>
+             Exemplo gravação:
+            
+                 POST /pessoa
+                 {
+                    "nome": "Teste",
+                    "nomeFantasia": "Teste",
+                    "cnpjCpf": "000.000.000-00",
+                    "email": "teste@teste.com.br",
+                    "dataNascimento": "2019-12-12T14:03:28.166Z"
+                 }
+            
+             Exemplo atualização:
+            
+                 POST /pessoa
+                 {
+                    "id": "1",
+                    "nome": "Teste",
+                    "nomeFantasia": "Teste",
+                    "cnpjCpf": "000.000.000-00",
+                    "email": "teste@teste.com.br",
+                    "dataNascimento": "2019-12-12T14:03:28.166Z"
+                 }
+            
+             </remarks>
+             <returns>Dados da pessoa incluída ou atualizada</returns>
+             <response code="200">Pessoa criada ou atualizada</response>
+             <response code="404">Erro na inserção ou atualização, pessoa não encontrada na busca para retornar os dados</response>
+        </member>
+        <member name="M:Signa.GrupoOcorrencia.Api1.Controllers.PessoaController.GetById(System.Int32)">
+            <summary>
+            Busca uma pessoa através do ID
+            </summary>
+            <param name="id">ID da pessoa</param>
+            <returns>Dados da pessoa</returns>
+            <response code="200">Pessoa cadastrada na base de dados</response>
+            <response code="404">Pessoa não encontrada na busca</response>
+        </member>
+        <member name="M:Signa.GrupoOcorrencia.Api1.Controllers.PessoaController.Get">
+            <summary>
+            Busca todas as pessoas na base de dados
+            </summary>
+            <response code="200">Pessoas cadastradas na base de dados</response>
+            <response code="404">Nenhuma pessoa encontrada na base de dados</response>
+        </member>
+        <member name="M:Signa.GrupoOcorrencia.Api1.Controllers.PessoaController.DeletePessoa(System.Int32)">
+            <summary>
+            Exclui uma pessoa através do ID
+            </summary>
+            <param name="id">ID da pessoa</param>
+            <response code="200">Mensagem de pessoa excluída com sucesso</response>
+        </member>
+    </members>
+</doc>
